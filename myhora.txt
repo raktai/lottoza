@@ -1,0 +1,2 @@
+j = $$("#container > div.content-main-fullwidth > div:nth-child(8) > div.lotto-left > div.mt-10 > div.mb-15.f108x > div:nth-child(-n +48)").map(n => [1,2,4,6,9].map(i => n.querySelector("div:nth-child("+i+")").textContent))
+JSON.stringify(j.reverse())
